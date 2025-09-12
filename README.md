@@ -63,8 +63,7 @@ After successful simulation, the schematic was transferred to Altium Designer to
 ### 3. Fabrication and Assembly
 The designed PCB was fabricated and assembled by hand-soldering all the through-hole components.
 
-<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/photo_2025-09-12_16-41-47.jpg" align="center" alt="screenshot" />
-<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/photo_2025-09-12_16-41-55.jpg" align="center" alt="screenshot" />
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/PCB_printed.jpg" align="center" alt="screenshot" />
 
 
 ---
