@@ -50,9 +50,23 @@ The components were chosen based on the project requirements, availability, and 
 ## Implementation Workflow
 
 ### 1. Simulation in LTspice
-The circuit was first designed and simulated in LTspice to verify its theoretical operation. The simulation confirmed that the circuit correctly multiplies the two sinusoidal input signals.
+The circuit was first designed and simulated in LTspice to verify its theoretical operation. The simulation confirmed that the circuit correctly multiplies the two sinusoidal input signals and operates as expected within the required frequency and voltage ranges.
 
 <img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/LtSpice_schematic.png" align="center" alt="screenshot" />
+
+### Waveform Analysis
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/image.png" align="center" alt="screenshot" />
+Simulation results showing the two input sinusoids (magenta and red) and the multiplied output signal (green). The output amplitude (1.834V) closely matches the expected theoretical value (1.8V) with a minimal error of 1.9%.
+
+### Frequency Response
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/image1.png" align="center" alt="screenshot" />
+The frequency response was analyzed to ensure the circuit performs reliably across its specified operating range. The simulation shows that the circuit's gain is stable and consistent from 0 Hz to 200 Hz, which is ideal for the project's requirements.
+Frequency response of the multiplier circuit, confirming stable operation within the 0-200 Hz range.
+
+### Accuracy Analysis
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/image2.png" align="center" alt="screenshot" />
+The accuracy of the output was tested by varying the average amplitude of the input signals. The graph below plots the percentage error of the output voltage against the average input amplitude.
+This chart shows that the circuit is most accurate within the specified input voltage range of 1V to 2V. Inside this range, the output error remains low, between +2.5% and -1.5%. Outside of these bounds, the error increases significantly, demonstrating that the circuit is optimized for its designed parameters.
 
 ### 2. PCB Design in Altium Designer
 After successful simulation, the schematic was transferred to Altium Designer to create a professional printed circuit board (PCB). The layout was optimized for signal integrity and component placement within the required 6x10 cm board size.
