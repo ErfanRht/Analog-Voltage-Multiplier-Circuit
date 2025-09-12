@@ -33,8 +33,6 @@ The circuit implements this principle in three main stages:
 
 3.  **Exponential (Anti-Log) Amplifier**: The final stage performs the inverse operation. An anti-logarithmic amplifier, which has a diode at its input and a resistor in the feedback loop, takes the summed logarithmic signal and produces an output that is proportional to the exponential of its input. This converts the sum of logarithms back into a product, yielding the final multiplied output signal.
 
----
-
 ## Implementation Workflow
 
 ### 1. Simulation in LTspice
