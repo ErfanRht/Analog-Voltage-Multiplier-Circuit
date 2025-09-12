@@ -52,19 +52,19 @@ The components were chosen based on the project requirements, availability, and 
 ### 1. Simulation in LTspice
 The circuit was first designed and simulated in LTspice to verify its theoretical operation. The simulation confirmed that the circuit correctly multiplies the two sinusoidal input signals.
 
-<img width="100%" src="https://github.com/ErfanRht/Analog-Multiplier-Circuit/blob/main/images/LtSpice_schematic.png" align="center" alt="screenshot" />
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/LtSpice_schematic.png" align="center" alt="screenshot" />
 
 ### 2. PCB Design in Altium Designer
 After successful simulation, the schematic was transferred to Altium Designer to create a professional printed circuit board (PCB). The layout was optimized for signal integrity and component placement within the required 6x10 cm board size.
 
-<img width="100%" src="https://github.com/ErfanRht/Analog-Multiplier-Circuit/blob/main/images/PCB_design_2d.png" align="center" alt="screenshot" />
-<img width="100%" src="https://github.com/ErfanRht/Analog-Multiplier-Circuit/blob/main/images/PCB_design_3d.png" align="center" alt="screenshot" />
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/PCB_design_2d.png" align="center" alt="screenshot" />
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/PCB_design_3d.png" align="center" alt="screenshot" />
 
 ### 3. Fabrication and Assembly
 The designed PCB was fabricated and assembled by hand-soldering all the through-hole components.
 
-<img width="100%" src="https://github.com/ErfanRht/Analog-Multiplier-Circuit/blob/main/images/photo_2025-09-12_16-41-47.jpg" align="center" alt="screenshot" />
-<img width="100%" src="https://github.com/ErfanRht/Analog-Multiplier-Circuit/blob/main/images/photo_2025-09-12_16-41-55.jpg" align="center" alt="screenshot" />
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/photo_2025-09-12_16-41-47.jpg" align="center" alt="screenshot" />
+<img width="100%" src="https://github.com/ErfanRht/Analog-Voltage-Multiplier-Circuit/blob/main/images/photo_2025-09-12_16-41-55.jpg" align="center" alt="screenshot" />
 
 
 ---
