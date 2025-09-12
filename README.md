@@ -35,18 +35,6 @@ The circuit implements this principle in three main stages:
 
 ---
 
-## Component Selection
-
-The components were chosen based on the project requirements, availability, and suitability for the specified voltage and frequency ranges.
-
-| Component | Model/Type | Rationale |
-| :--- | :--- | :--- |
-| **Operational Amplifier** | LM741 | General-purpose, stable performance, and compatible with ±12V supply. |
-| **Diode** | 1N4148 | Fast-switching signal diode with a suitable forward voltage for the input range. |
-| **Resistors** | 10kΩ, 410kΩ, 470Ω | Through-hole, carbon film resistors selected for defining amplifier gains. |
-
----
-
 ## Implementation Workflow
 
 ### 1. Simulation in LTspice
